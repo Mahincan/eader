@@ -1,0 +1,43 @@
+.row{
+    height: 400px;
+    margin-bottom: 5px;
+}
+img{
+    height: 100%;
+    width: 100%;
+}
+.row-se{
+    display: flex;
+    gap: 6px;
+}
+.row-se > div {
+    flex: 1;
+}
+.Secend-row-third {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+.canada{
+    display: flex;
+    gap: 6px;
+    margin-top: 6px;
+}
+.third-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 6px;
+}
+@media screen and (max-width: 576px) {
+    .third-container{
+        flex-direction: column;
+        display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 6px;
+    }
+    .Secend-row-third{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    
+}

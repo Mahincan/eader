@@ -1,0 +1,291 @@
+* {
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.text-primary {
+    color: orange;
+}
+
+.btn-primary {
+    height: 64px;
+    background: #FD6E0A;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 20px;
+    border: 0px;
+    padding: 18px 35px;
+}
+
+.header {
+    background-color: rgb(151, 139, 123);
+    background-image: url('../images/header_bg.png'), url(../images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+}
+
+/* header and navigation styles */
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 200px;
+}
+
+.nav-tittle {
+    font-weight: 800;
+    font-size: 45px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin: 50px;
+}
+
+/* banner-styles */
+.banner {
+    margin: 0px 200px 200px 200px;
+    display: flex;
+    align-items: center;
+}
+
+.banner-sub-title {
+    font-weight: 600;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.banner-title {
+    font-weight: 700;
+    font-size: 85px;
+}
+
+.banner-description {
+    color: rgb(167, 189, 189);
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+/* main section */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* about scetion style */
+.About {
+    background: #FFF8F3;
+    border-radius: 10px;
+    margin-top: 130px;
+    padding: 130px 150px;
+    text-align: center;
+
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 60px;
+    font-weight: 700;
+    font-size: 35px;
+
+}
+
+.section-description {
+    color: rgb(48, 48, 27);
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.info-title {
+    font-size: 20px;
+    color: rgb(174, 157, 157)
+}
+
+.info-description {
+    font-weight: 700;
+    font-size: 20px;
+    color: rgb(86, 74, 59);
+    margin-bottom: 10px;
+}
+
+/* what i do style */
+.what {
+    margin top: 130px;
+}
+
+.skills-container {
+    display: flex;
+    gap: 24px;
+}
+
+.skill-title {
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.skill-description {
+    color: #757575;
+}
+
+.skill {
+
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+}
+
+section {
+    margin-top: 80px;
+}
+
+/* resume styles */
+.resume-content {
+    display: flex;
+    gap: 24px;
+}
+
+.resume .title {
+    font-weight: 700;
+    font-size: 25px;
+    color: rgb(79, 77, 74);
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+}
+
+.resume .sub-title {
+    font-weight: 600;
+    font-size: 20px;
+    color: rgb(57, 52, 45);
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.resume .description {
+    font-weight: 400;
+    font-size: 16px;
+    color: rgb(134, 123, 109);
+    margin-top: 10px;
+}
+
+.resume-item {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.resume-button {
+    margin-top: 50px;
+    text-align: center;
+}
+
+/* connect style */
+.contract {
+    display: flex;
+    gap: 100px;
+    background-color: antiquewhite;
+    padding: 130px 200px;
+}
+
+.contract .section-title {
+    text-align: left;
+
+}
+
+.contract input[type="text"],
+input[type="email"],
+textarea {
+    margin-bottom: 25px;
+    border: 0px;
+    width: 100%;
+    padding: 18px 30px;
+}
+
+.contract a {
+    text-decoration: none;
+}
+
+/* /respomnsi */
+@media screen and (max-width: 576px) {
+    .header {
+        background-image: none;
+    }
+    nav,
+    .banner,
+    .skills-container,
+    .resume-content,
+    .about-info-container,
+    .section-description,
+    .contract {
+        flex-direction: column;
+        gap: 20px;
+        padding: 10px 20px;
+    }
+    .banner{
+        margin: 0px 20px;
+    }
+    .banner img{
+        width: 100%;
+    }
+
+    nav ul{
+        flex-direction: column;
+        gap: 20px;
+    }
+    nav li{
+        margin-left: 0px;
+    }
+
+    .About,
+    .contract {
+        padding: 20px;
+    }
+
+    .contract input[type="text"],
+    input[type="email"],
+    textarea {
+        padding: 0px 0px 0px 5px;
+    }
+
+}
+
+@media screen and (min-width:577px) and (max-width: 992) {
+
+    .About,
+    .contract {
+        padding: 20px;
+
+    }
+
+    .contract, .banner{
+        flex-direction: column;
+    }
+
+    .contract input[type="text"],
+    input[type="email"],
+    textarea {
+        padding: 0px 0px 0px 5px;
+    }
+    nav ul{
+        flex-direction: column;
+        gap: 20px;
+        align-items: flex-start;
+    }
+}
+
+.hide {
+    display: none;
+}

@@ -1,0 +1,44 @@
+h2{
+    color: blueviolet;
+    text-decoration: underline wavy red;
+    border: 40px;
+    border-radius: 30;
+    background-c1   olor: blueviolet;
+
+}
+
+.mm{
+    background-color: blueviolet;
+    box-shadow: 10px 10px 10px 10px rgb(81, 74, 74);
+    margin-bottom: 100px;
+
+}
+.nn{
+    background-color: blueviolet;
+    box-shadow: 10px 10px 10px 10px rgb(71, 75, 71);
+    margin-bottom: 100px;
+}
+p{
+    color: rgb(162, 100, 19);
+}
+.df{
+    font-font-weight: 700px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.bv{
+    height: 200px;
+    /* background-image: url("../OIP\ \(1\).jpg"); */
+    background-image: url("../css/R\ \(1\).jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: brown;
+    /* background-position: bottom; */
+    color: rgb(227, 28, 28);
+    background-blend-mode: color;
+
+
+    /* background-image: url("nn.jpg"); */
+
+}
+a{
+    text-decoration: none;

@@ -1,0 +1,26 @@
+.meg{
+    color: blue;
+    width: 500px;
+    height: 400px;
+    border: 40px solid red;
+    /* overflow: scroll; */
+    overflow-y: scroll;
+}
+.mega-box{
+    color: blue;
+    width: 500px;
+    height: 400px;
+    border: 40px solid red;
+    overflow-y: scroll;
+
+}
+.mini{
+    width: 40px;
+    border:20px solid rebeccapurple;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    
+} 
+.mini-cl{
+    white-space: nowrap;
+}   

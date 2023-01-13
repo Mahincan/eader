@@ -1,0 +1,14 @@
+.container, .inner{
+    height: 150px;
+    width: 150px;
+    border: 2px solid red;
+    
+
+}
+.container{
+    background-color: aqua;
+}
+.inner{
+    background-color: rgb(185, 172, 200);
+    transform: translate(50px, 50px) scale(0.65) rotate(45deg);
+}

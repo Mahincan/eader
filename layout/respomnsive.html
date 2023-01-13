@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+        }
+        .fod{
+            border: 2px solid rebeccapurple;
+            padding 10px;
+            border-radius: 5px;
+        }
+        body {
+            border: 1px solid rebeccapurple;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            font-size: 10vw;
+        }
+
+        .tiger img {
+            width: 100%;
+        }
+
+        .container-two {
+            display: flex;
+        }
+
+        .container-two .split {
+            width: 50%;
+        }
+
+        .split img {
+            width: 100%;
+        }
+        .fod img{
+            width: 100%;
+        }
+
+        @media screen and (max-width: 576px) {
+            .container-two {
+                flex-direction: column-reverse;
+            }
+
+            .container-two .split {
+                width: 100%;
+
+            }
+            .container{
+                grid-template-columns: repeat(1, 1fr);
+            }
+        }
+        @media screen and (min-width: 577px) and (max-width: 700px){
+            .container{
+                grid-template-columns: repeat(2, 1fr);
+            }
+            
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <h1>this my responsive website</h1>
+    </section>
+    <section class="tiger">
+        <h3>Tiger</h3>
+        <img src="images/ezgif-3-7a4e8e7502.jpg" alt="">
+    </section>
+    <section>
+        <h2>Two parts</h2>
+        <div class="container-two">
+            <div class="split">
+                <img src="/images/images (2).jfif" alt="">
+            </div>
+            <div class="split">
+                <img src="/images/nn.jpg" alt="">
+            </div>
+        </div>
+    </section>
+    <section>
+        <h2>Mutli colum</h2>
+        <div class="container">
+            <div class="fod">
+                <img src="/images/nn.jpg" alt="">
+                <h2>item-1</h2>
+                <h4>price: 100</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus laboriosam beatae molestiae voluptate
+                    quod hic excepturi quisquam, harum molestias minima consectetur ratione similique velit sed alias
+                    porro officiis natus dolor!</p>
+                <button>Order now</button>
+            </div>
+            <div class="fod">
+                <img src="/images/nn.jpg" alt="">
+                <h2>item-2</h2>
+                <h4>price: 200</h4>
+                <p>Laudantium neque maxime delectus dolorem voluptatum consequuntur! Nihil alias dolorem voluptas,
+                    pariatur quibusdam nobis quos impedit accusamus deleniti animi sint recusandae dolores aliquam ab
+                    dolorum, tenetur, magnam facilis qui necessitatibus?</p>
+                <button>Order now</button>
+            </div>
+            <div class="fod">
+                <img src="/images/nn.jpg" alt="">
+                <h2>item-3</h2>
+                <h4>price: 300</h4>
+                <p>Necessitatibus, ad odio? Nisi modi consequatur repellendus magnam commodi nemo dignissimos dolor
+                    voluptatibus est, minima sunt dolorum, eius ipsa assumenda autem! Necessitatibus illum incidunt
+                    culpa praesentium fugit molestias est id.</p>
+                <button>Order now</button>
+            </div>
+            <div class="fod">
+                <img src="/images/nn.jpg" alt="">
+                <h2>item-4</h2>
+                <h4>price: 400</h4>
+                <p>Adipisci et sit consequatur, accusantium alias, ut quasi dolorum harum labore sequi nulla distinctio
+                    reiciendis ratione? Sed quam, architecto a dolores atque explicabo alias fugiat, qui sapiente eaque
+                    maxime adipisci.</p>
+                <button>Order now</button>
+            </div>
+            <div class="fod">
+                <img src="/images/nn.jpg" alt="">
+                <h2>item-5</h2>
+                <h4>price: 500</h4>
+                <p>Dolor, inventore autem blanditiis, eligendi ullam eveniet est veritatis voluptas expedita dolorum
+                    mollitia esse laudantium doloremque modi nihil dicta pariatur. Commodi debitis ullam ut molestiae
+                    eveniet ab odit eius fuga!</p>
+                <button>Order now</button>
+            </div>
+            <div class="fod">
+                <img src="/images/nn.jpg" alt="">
+                <h2>item-6</h2>
+                <h4>price: 600</h4>
+                <p>Ullam iure consectetur porro dolorum officiis, aspernatur dolor exercitationem libero! Doloremque,
+                    quidem? Reprehenderit rerum repudiandae, distinctio iusto totam magni vel deleniti culpa quae
+                    incidunt quia, exercitationem eius pariatur et ut.</p>
+                <button>Order now</button>
+            </div>
+            <div class="fod">
+                <img src="/images/nn.jpg" alt="">
+                <h2>item-7</h2>
+                <h4>price: 700</h4>
+                <p>Aspernatur facilis architecto praesentium veniam fugiat quidem! Ratione iste inventore nulla adipisci
+                    repellat amet corrupti nobis nostrum, facere, unde error? Quam cumque voluptate veniam, quidem aut
+                    nam inventore veritatis debitis.</p>
+                <button>Order now</button>
+            </div>
+            <div class="fod">
+                <img src="/images/nn.jpg" alt="">
+                <h2>item-8</h2>
+                <h4>price: 800</h4>
+                <p>Harum culpa odit sequi illo ipsa, sint fuga vitae tempore. Eum perferendis rerum minus illo assumenda
+                    cum aspernatur vero tenetur eaque eius numquam voluptate, repudiandae sapiente, harum omnis! Facere,
+                    repellat?</p>
+                <button>Order now</button>
+            </div>
+            <div class="fod">
+                <img src="/images/nn.jpg" alt="">
+                <h2>item-9</h2>
+                <h4>price: 900</h4>
+                <p>Corporis dolores, culpa optio perferendis dignissimos sequi impedit sit porro soluta itaque quis amet
+                    fugiat fuga sunt praesentium deserunt modi voluptatum quia exercitationem cumque consequuntur
+                    aliquam incidunt ipsa nulla? Nulla.</p>
+                <button>Order now</button>
+            </div>
+            <div class="fod">
+                <img src="/images/nn.jpg" alt="">
+                <h2>item-10</h2>
+                <h4>price: 1000</h4>
+                <p>Unde, corporis? Beatae consectetur a quis voluptates dolorem quasi. Neque animi ipsum unde ab aliquid
+                    esse explicabo, et sequi eum repudiandae accusamus enim? Beatae, commodi mollitia accusantium dolor
+                    omnis voluptates.</p>
+                <button>Order now</button>
+            </div>
+            <div class="fod">
+                <img src="/images/nn.jpg" alt="">
+                <h2>item-11</h2>
+                <h4>price: 1100</h4>
+                <p>Accusamus veniam, sed expedita est odit consectetur quis officiis numquam quod reiciendis et,
+                    voluptas laboriosam ea ratione mollitia impedit sapiente eos ducimus suscipit porro repellendus?
+                    Incidunt, cum reprehenderit. Dolorum, eius?</p>
+                <button>Order now</button>
+            </div>
+            <div class="fod">
+                <img src="/images/nn.jpg" alt="">
+                <h2>item-12</h2>
+                <h4>price: 1200</h4>
+                <p>Ad impedit similique dolorem cum distinctio ea nihil molestias perferendis, quos laborum odio unde
+                    repellendus hic illum fugiat obcaecati ducimus repudiandae, omnis perspiciatis dignissimos
+                    voluptatum! Rem dolore molestias reiciendis excepturi.</p>
+                <button>Order now</button>
+            </div>
+        </div>
+
+    </section>
+</body>
+
+</html>
